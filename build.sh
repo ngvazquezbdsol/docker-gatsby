@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t freaz/gatsby:latest .
+docker build -t ngvazquez/gatsby-latest .
