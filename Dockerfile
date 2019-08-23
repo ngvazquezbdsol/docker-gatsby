@@ -7,7 +7,7 @@ RUN apk add --no-cache \
       nginx \
       python \
       build-base \
-    && npm install --global --no-optional gatsby@last \
+    && npm install --global --no-optional gatsby@latest \
     && mkdir -p /www /run/nginx \
     && chmod +x /entry.sh \
     && ln -sf /dev/stdout /var/log/nginx/access.log \
